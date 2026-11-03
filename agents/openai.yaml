@@ -1,0 +1,6 @@
+interface:
+  display_name: "OMR Transcription"
+  short_description: "Transcribe scanned scores to ABC and engraved proofs"
+  default_prompt: "Use $omr-transcription to transcribe this score into ABC, MusicXML and a source-faithful PDF for verification."
+policy:
+  allow_implicit_invocation: true

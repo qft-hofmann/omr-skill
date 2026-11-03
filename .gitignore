@@ -1,0 +1,28 @@
+# Only the distributable skill belongs at the repository root.
+# Add an exception here when introducing another public top-level file/directory.
+/*
+!/.gitignore
+!/.github/
+!/README.md
+!/LICENSE
+!/SKILL.md
+!/agents/
+!/references/
+!/scripts/
+!/tests/
+
+# Generated files and local configuration, anywhere in the package.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+build/
+dist/
+# Local transcription inputs, generated scores and benchmark runs belong here,
+# or outside this repository. Tests may still use small music fixtures.
+work/
+local-data/
+.env
+.env.*
